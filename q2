@@ -1,0 +1,11 @@
+What types of tests is Cypress designed for?
+
+Manual Testing is simply physically interacting with an application; this can take a lot of patience as it is often very time-consuming due to the repetition of variations of similar tasks over and over again.
+
+Unit Testing is the implementation of testing individual parts of an application. As several units make up an application, an example could consist of testing a single function to make sure it returns the expected output.
+
+End-To-End Testing is the implementation of validating the entire application from start to finish, possibly testing the entire application with live data to ensure everything is functional as desired.
+
+Integration Testing is the implementation of testing units and modules when they are combined together. Examples could consist of testing between the UI front end and the back end of the application.
+
+Continuous Integration, commonly known as CI, allows developers to merge their code into an essential repository where builds and tests will run against their changes. If it fails, the CI system will block the code from being integrated into the main branch, and if any of the tests fail, it will be logged. This can be ideal because when we add a new feature, we can make sure it won’t cause any complications within our application.
